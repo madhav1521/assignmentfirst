@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<head>
+    <title> </title>
+    
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/innerstyle.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style> -->
+</head>
+<body>
+    <header>
+        <div class="header">
+        <div id="menu-bar"> 
+            <button><img src="/images/menu-bar.svg" alt="menu-bar" onclick="myFunction()"></button>
+        </div>
+        <div class="logo">
+            <img src="/images/logo.svg" alt="company logo">
+        </div>
+        <div class="searchbar">
+            <input type="search" id="search" placeholder="Search">
+        </div>
+        <div class="notification">
+            <img src="/images/notification-icon.svg" alt="notification icon">
+        </div>
+        <div class="profile">
+            <img src="/images/profile.png" alt="profile">
+        </div>
+        <div class="text">
+            <p>John Doe</p>
+        </div>
+        <div class="dropdown-in-header">
+            <img src="/images/downward-arrow.svg" alt="downward-arrow">
+        </div>
+        </div>
+    </header>
+
+    <aside>
+        <div id="leftcontent">
+            <a class="content" href="dashboard (2).html"><img src="/images/dashboard-default.svg" alt=""><p>Dashboard </p></a>
+            <a class="content1" href="innerpage.html"><img src="/images/graph-active.svg" alt=""><p>Analysis </p></a>
+            <a class="content" href="#"><img src="/images/inbox-default.svg" alt=""><p>Inbox </p></a>
+            <a class="content" href="#"><img src="/images/clock-default.svg" alt=""><p>History </p></a>
+            <a class="content" href="#"><img src="/images/user-default.svg" alt=""><p>Users </p></a>
+            <a class="content" href="#"><img src="/images/maintenance-default.svg" alt=""><p>Maintenance </p></a>
+            <a class="content" href="#"><img src="/images/setting-default.svg" alt=""><p>Setting </p></a>
+
+        </div>
+    </aside>
+
+
+
+    <div class="rightcontent1">
+        <p class="ana">Analysis</p>
+
+        <div class="rightcontent2">
+            <div class="rightcontent3">
+                <p class="h21">One Column</p>
+
+
+                <form class="form1">
+                    <input type="text" placeholder="Name" class="name">
+                    <select class="dropdown">
+                        <option>Dropdown</option>
+                    </select>
+                    <textarea name="" id="textarea" cols="30" rows="10" class="textarea"
+                        placeholder="Multiple Line"></textarea>
+                </form>
+
+                <p class="h22">Two column</p>
+
+                <form class="form2">
+                    <div class="col2">
+                        <div class="formitem">
+                            <input type="text" placeholder="Name" class="name-in-col2">
+                        </div>
+                        <div class="formitem">
+
+                            <input type="text" placeholder="John Doe" class="user-in-col2">
+                            <p class="p1" style="width: 55px;">Username</p>
+                        </div>
+
+                        <div class="formitem">
+                            <input type="password" placeholder="passsword" class="pass-in-col2">
+                        </div>
+                        <div class="formitem">
+                            <select class="drop-in-col2">
+                                <option class="item71">Dropdown</option>
+                            </select>
+                        </div>
+                    </div>
+                </form>
+
+                <p class="h23">Three column</p>
+                <form class="form3">
+                    <div><input type="text" class="item8"></div>
+                    
+                    <div><input type="password" placeholder="• • • • • • • • •" class="item10"></div>
+                    
+                    <div>
+                        <input type="text" placeholder="John Doe" class="item9">
+                        <!-- <p class="p1" style="width: 55px;">Disabled</p> -->
+                    </div>
+                </form>
+
+
+                <p class="h23">Four column</p>
+                <form class="form4">
+
+                    <input type="text" placeholder="UI designer" class="item11">
+                    <input type="text" placeholder="Name" class="item12">
+                    <input type="text" placeholder="John Doe" class="item13">
+
+                    <select class="item14">
+                        <option class="item72">Select</option>
+                    </select>
+                    
+                </form>
+                <div class="span1">
+                        <span class="span11">Enter Valid data</span>
+                        <span class="span12">Enter your full Name as per ID</span>
+                    </div>
+
+                <p class="h24">Other Design Elements</p>
+                <p class="h25">File Upload</p>
+                <div class="button">
+
+                    <button class="upload"><img src="/images/cloud-upload-icon.svg">
+                        <p>Upload </p>
+                    </button>
+                    <p class="h26">no item selected</p>
+                </div>
+
+                <p class="h27">Radio Button</p>
+                <form class="rad-btn">
+                    <input type="radio" id="radio1" value="Option1" />
+                    <label for="Option1">Option1</label>
+                    <!-- <img src="circle.png" alt="" class="radio3">
+                    <img src="radio-checked-icon.svg" alt="" class="radio2"> -->
+                    <input type="radio" id="radio2" value="Option2" />
+                    <label for="Option2" >Option2</label>
+                </form>
+
+                <p class="h27">checkbox</p>
+                <div class="formcheck">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Option1
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Option2
+                        </label>
+                    </div>
+                </div>
+
+                <p class="h28">Snackbar</p>
+                <div class="snackbar">
+                    <div class="error">
+                        <img src="/images/error-icon.svg" alt="" class="error1">
+                        <p class="message">This is an error message</p>
+                    </div>
+                    <div class="info">
+                        <img src="/images/info-icon.svg" alt="" class="info1">
+                        <p class="message2">This is an error message</p>
+                    </div>
+                    <div class="warning">
+                        <img src="/images/warning-icon.svg" alt="" class="warning1">
+                        <p class="message3">This is an error message</p>
+                    </div>
+                    <div class="success">
+                        <img src="/images/success-icon.svg" alt="" class="success1">
+                        <p class="message4">This is an error message</p>
+                    </div>
+                </div>
+
+                <p class="h29">Call to action</p>
+                <div class="primary">
+                    <button class="primary1">
+                        <a href="#">Primary</a> 
+                    </button>
+                    <button class="secondary1">
+                        <a href="#">Secondary</a>
+                    </button>
+                </div>
+                <p class="h29">Tabs</p>
+                <div class="tabs">
+                    <a href="#" class="tab1">Tab 1</a>
+                    <a href="#" class="tab2">Tab 2</a>
+                    <a href="#" class="tab3">Tab 3</a>
+
+                </div>
+                <hr class="hr1">
+                <hr class="hr2">
+                <p class="lorem"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit odit
+                    repudiandae fugiat quibusdam, esse voluptatibus eius ab iure porro velit. Ab culpa ipsam
+                    dolor officia animi ea distinctio eos minima fugit consequuntur magnam aut asperiores in
+                    voluptatem, saepe nulla. Maiores veniam molestiae dolorem cum autem unde eos omnis aut quod?
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+        // let val=1
+        if(document.getElementById("leftcontent").style.display=="none")
+        {
+          document.getElementById("leftcontent").style.display="block"
+        
+          // onstop()
+        } else{
+        // (document.getElementById("mySidebar").style.display="block")
+          console.log("hi how are you")
+          document.getElementById("leftcontent").style.display="none"
+    
+        }
+      }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+crossorigin="anonymous"></script>
+
+    </body>
+</html>
